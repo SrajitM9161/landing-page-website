@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contain{
+    background: linear-gradient(90deg, #00704A 50% ,#6a3407 50%);
+    height: 100vh;
+    padding-left: 13vh;
+    padding-top: 5%; 
+    
+}
+.wrapper{
+    background-color:#f9f6f6 ;
+    width: 93%;
+    height: 80vh;
+}
+.navbar .logo{
+    width:50px;
+    height:55px;
+    background-color: transparent;
+    border: 3px solid #6a3407;
+    border-right-color: transparent;
+    position: relative;
+    
+}
+.navbar .logo::before{
+    content: "Cofify";
+    color: black;
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    font-family: 'Arizonia', cursive;
+    
+}
+.navbar{
+    background-color:#f9f6f6;
+    width: 90%;
+   margin: auto;
+   height: 10vh;
+   
+}
+.navbar  .navlist{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin-left: 840px;
+    
+}
+.navlist li{
+    list-style: none;
+    padding: 20px;
+}
+.navlist a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+
+
+}
+.ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+        transition: 0.4s ease-in-out;}
+ul li a:hover{
+    color:#00704A;
+}
+.imge{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 0px;
+}
+.imge img{
+    width: 40vw;
+  
+    /* margin-left: -100px; */
+
+}
+.content{
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    border-left: 4px solid #6a3407;
+    padding: 20px 50px;
+}
+.content h3{
+    color: rgh(73, 73, 73);
+    font-size: 20px ;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+.content h1{
+    color: #6a3407;
+    font-size: 38px;
+}
+.content p{
+    color: black;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.content button{
+    padding: 15px 27px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background-color: #6a3407;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: #00704A;
+    color: #6a3407;
+}
+.imge1{
+    margin-left: 1020px;
+    margin-top: -80px;
+    display: flex;
+    width: 30%;
+    height: 25%;
+}
+
+
